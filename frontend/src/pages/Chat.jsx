@@ -15,7 +15,7 @@ function Chat(){
  
     try {
       const response = await fetch(
-        "http://localhost:5000/api/chat",
+        "https://chat-backend-e4hu.onrender.com/api/chat",
         {
           method: "POST",
           headers: {

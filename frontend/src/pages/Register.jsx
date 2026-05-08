@@ -19,7 +19,7 @@ function Register(){
     e.preventDefault();
     try {
       const response = await fetch(
-        "http://localhost:5000/api/auth/register",
+        "https://chat-backend-e4hu.onrender.com/api/auth/register",
         {
           method: "POST",
           headers: {
